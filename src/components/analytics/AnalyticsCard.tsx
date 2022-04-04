@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
-import { ReactComponent as CalenderIcon } from "../../../assets/images/icons/calender.svg";
+import { ReactComponent as CalenderIcon } from "assets/images/icons/calender.svg";
 
 const DropdownIndicator = (props: any) => {
     return (
@@ -35,8 +35,6 @@ const AnalyticsCard: FC<Props> = ({
         { value: "quarterly", label: "3 Months" },
         { value: "all", label: "All" }
     ];
-
-    // tickCount should be set relative to the range or median of the x-axis data
 
     return (
         <Card className='app-rounded-10 mb-4'>

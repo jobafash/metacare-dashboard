@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import ErrorStateImage from "../../assets/images/states/error.svg"
+import ErrorStateImage from "assets/images/states/error.svg"
 
 // empty state place holder
 const WrongRouteState = () => {

@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
-import DashboardLayout from './layout';
-import Analytics from './analytics';
+import DashboardLayout from 'components/layout';
+import Analytics from 'components/analytics';
 
 const Dashboard : FC = ({
     ...props

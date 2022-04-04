@@ -1,7 +1,7 @@
 import React, { FC, Fragment } from 'react'
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import EmptyStateImage from "../../assets/images/states/no_data.svg"
+import EmptyStateImage from "assets/images/states/no_data.svg"
 
 interface Props {
     message?: string;

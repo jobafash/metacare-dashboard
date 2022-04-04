@@ -6,8 +6,9 @@ import Image  from 'react-bootstrap/Image';
 import Navbar  from 'react-bootstrap/Navbar';
 import Container  from 'react-bootstrap/Container';
 import NavDropdown  from 'react-bootstrap/NavDropdown';
-import { ReactComponent as NotificationIcon } from "../../../assets/images/icons/bell.svg";
-import UserAvatar from "../../../assets/images/avatar/user.png";
+import { ReactComponent as NotificationIcon } from "assets/images/icons/bell.svg";
+import UserAvatar from "assets/images/avatar/user.png";
+import React from 'react';
 
 const Header = ({
     ...props
